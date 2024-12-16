@@ -1,6 +1,6 @@
 This repository contains the Automated Detection of Tropes in Short Texts project.
 
-# Automated Detection of Tropes In Short Vaccine Texts
+# Automated Detection of Tropes In Short Texts
 Our project has the ambition to tackle the challenge of detecting tropes in the social media context. The first two approaches involved Fine-Tuning pretrained Bert models, while the third and fourth approaches served as a mean of comparison by using a Zero-Shot classification through ChatGPT and LLama.
 
 # Abstract
