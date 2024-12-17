@@ -12,6 +12,15 @@ We tested our model on different datasets for conspiracy theories and for persua
 # Resuts
 The results yielded by the various models and experiments have been discussed and analyzed, to investigate the possibility of tropes being a "new", detectable figure of speech.
 
+# Cite this paper
+@inproceedings{flaccavento-peskine-etal-2025-automatedtropedetection,
+    title = {Automated Detection of Tropes In Short Texts},
+    author = {Flaccavento, Alessandra and Peskine, Youri and Papotti, Paolo and Torlone, Riccardo and Troncy, Raphael},
+    booktitle = {Proceedings of the International Conference on Computational Linguistics (COLING 2025)},
+    year = {2025},
+    address = {Abu Dhabi, UAE}
+}
+
 # License
 Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
 
