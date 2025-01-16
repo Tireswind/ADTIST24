@@ -29,7 +29,14 @@ The data consist of 3,304 tweets annotated w.r.t these 9 tropes, and is shared i
 ## Classification models
 We propose baseline models to detect tropes automatically. We use BERT, CovidTwitter-BERT as supervised approaches, training on 80% of the data, and Chat-GPT, LLama-3-8B in a zero-shot fashion as LLM baselines. The code used for the experiments is shared in [./src/](src)
 
+We show in this table the results on test data (20%) using F1 score.
 
+|  Models | STA | DTW | HM | LF | NIB | TPMR | TF | SC | WF | None | Avg |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| Bert | 0.54 | 0.57 | 0.42 | 0.78 | 0.50 | **0.33** | 0.75 | 0.48 | 0.55 | 0.83 | 0.58 |
+| CT-BERT | **0.60** | **0.68** | **0.59** | **0.80** | **0.55** | 0.27 | **0.77** | **0.64** | **0.57** | **0.87** | **0.65** |
+| Chat GPT | 0.19 | 0.36 | 0.27 | 0.66 | 0.27 | 0.00 | 0.31 | 0.20 | 0.44 | 0.55 | 0.32 |
+| Llama-3-8B | 0.15 | 0.29 | 0.20 | 0.38 | 0.27 | 0.12 | 0.16 | 0.10 | 0.10 | 0.24 | 0.23 |
 
 
 ## Cite this paper
